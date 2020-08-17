@@ -4,32 +4,137 @@
 	<title> Jason's Portfolio </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
 	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Bungee+Inline&family=Bungee+Shade&family=Cantarell&family=Finger+Paint&family=Josefin+Sans&family=Oswald&family=Staatliches&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <!-- <h1>This website is under consturction please visit some other time.</h1> -->
-
+<!-- this is the navigation bar -->
 <div class="topnav" id="myTopnav">
-  <a href="#JasonJoseph" class="active">Jason Joseph</a>
-  <a href="#Home">Home</a>
-  <a href="#About">About</a>
-  <a href="#Contact">Contact</a>
+  <a href="#JasonJoseph" class="active" style="font-family: Oswald; text-decoration: none;">Jason Joseph</a>
+  
+  <a href="#Contact" style="font-family: Josefin Sans">Contact</a>
+  <a href="#About" style="font-family: Josefin Sans">About</a>
+  <a href="#Home" style="font-family: Josefin Sans">Home</a>
+ 
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 
-<div style="padding-left:16px">
-  <h1>Jason Joseph</h1>
-  <br>
-  <hr>
-  <br>
-  <h2>About me</h2>
-  <p><strong> My name is <b>JJ</b>, I am 11 years old and I love reading books, Drawing, digital art and coding, When I grow up I want to be an: amazing digital artist and traditional artist, a succesful buisness man for books. I have a book review channel called JJ.BFG. I like Music. My favourite book genre is Action, Adventure and Comedy. I like minecraft as my most favoroute game and that is pretty much about me. </strong></p>
+<!-- AN EMPTY division -->
+<div style="height: 50px" id="JasonJoseph">
+	
 </div>
 
+<!-- this is the homepage -->
+<div class="container" id="Home">
+	<div class="row">
+		<div class="col-sm-6" style="padding-top:40px">
+			
+			<div style="margin-top: 50px;">
 
+				<h1> Hi, I'm Jason </h1>
+
+				<h3> Coding Enthusiast | Front-end Developer (Html and Css) </h3>
+
+				<p style="font-size: 24px"> I like Scatch, Html and Css. I know a little Python, how I first learnt coding was from scratch. </p>
+			
+			</div>
+
+		</div>
+		<div class="col-sm-6">
+			<img src="Jason.PNG" alt="Jason" class="myimagey">
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br id="About">
+<hr>
+<br>
+<!-- This is about me -->
+<div style="background-color: #82E0AA; padding-top: 45px; padding-bottom: 45px">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<!-- DON'T TYPE ANYTHING HERE (Empty Div) -->
+			</div>
+			<div class="col-sm-8" style="text-align: center;">
+				<h2 style="font-size: 50px">About Me</h2>
+				
+				<p style="font-size: 24px">My name is Jason, I am <a style="font-family: Bungee"> 11 </a> years old, my native place is India but I am born in Dubai and I love reading books, Drawing, digital art, traditional ar and coding, When I grow up I want to be an: amazing digital artist and traditional artist, a succesful buisness man for books. I have a book review channel called JJ.BFG. I like Music. My favourite book genre is Action, Adventure and Comedy. I like minecraft as my most favoroute game and that is pretty much about me.</p>
+			</div>
+			<div class="col-sm-2">
+				<!-- DON'T TYPE ANYTHING HERE (Empty Div2) -->
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<hr>
+<br>
+<br>
+
+<div class="container">
+	<h2 style="text-align: center; font-size: 50px">Skills</h2>
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="skills-card flex" style="width: 18rem; height: 20rem;">
+				<img src="html.png" class="picture" alt="...">
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="skills-card flex" style="width: 18rem; height: 20rem;">
+				<img src="css.png" class="picture" alt="...">
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="skills-card flex" style="width: 19rem; height: 20rem;">
+				<img src="python.png" class="picture" alt="...">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Contact info -->
+<div style="background-color: #283747">
+	<div class="footer">
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="copy" style="margin-top: 20px; color: white; font-size: 24px;">&copy; Jason Joseph</p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="contacts">
+                        <div class="mail">
+                            <a href="mailto: jj.bfg7@gmail.com"><img src="at.png"></a>
+                        </div>
+                        <div class="fb">
+                            <a href="https://www.linkedin.com/in/itsmohamedghouse/" target="blank"><img
+                                    src="fb.png" style="height: 32px; width: 32px"></a>
+                        </div>
+                        <div class="github" id="Contact">
+                            <a href="https://github.com/JJ-REDRAGON" target="_blank"><img
+                                    src="github-logo.png"></a>
+                        </div>
+                        <div class="YT">
+                            <a href="https://www.youtube.com/channel/UC4V47M2E5gOZdQP-zT-w87g" target="blank"><img
+                                    src="YT.png" style="height: 32px; width: 46px"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>	
+</div>
 </body>
 </html>
